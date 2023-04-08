@@ -1,10 +1,10 @@
 // Your code here
-function createEmployeeRecord(thisArg){
+function createEmployeeRecord(Arr){
     const myData = {
-        firstName: thisArg[0],
-        familyName: thisArg[1],
-        title: thisArg[2],
-        payPerHour: thisArg[3],
+        firstName: Arr[0],
+        familyName: Arr[1],
+        title: Arr[2],
+        payPerHour: Arr[3],
         timeInEvents: [],
         timeOutEvents: []
     }
